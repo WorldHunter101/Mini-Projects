@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Prompt',sans-serif;
+    font: xx-large;
+    color: white;
+    background: #0f0f0f;
+    overflow-x: hidden;
+    width: auto;
+}
+
+#result {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+}
+
+.wavesTop {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesTop svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 399px;
+}
+
+.wavesTop .shape-fill {
+    fill: #4487EC;
+}
+
+.wavesBottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.wavesBottom svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 200px;
+}
+
+.wavesBottom .shape-fill {
+    fill: #4487EC;
+}

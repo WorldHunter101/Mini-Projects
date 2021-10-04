@@ -1,0 +1,14 @@
+body{
+    color: slategray;
+
+}
+#highScoresList {
+    list-style: none;
+    margin-bottom:4rem;
+    border-radius: 1rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}

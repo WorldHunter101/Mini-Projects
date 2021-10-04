@@ -1,4 +1,4 @@
-# Beginner-Projects
+# Projects
 
 Hey fellow developers 👋
 

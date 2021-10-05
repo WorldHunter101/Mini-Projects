@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Prompt',sans-serif;
+    color: white;
+    background: #0f0f0f;
+    overflow-x: hidden;
+    width: auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.cal {
+    display: flex;
+    text-align: left;
+    padding: 5px;
+}
+
+#foot {
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#ins {
+    position: relative;
+    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+}
+
+.field {
+    background: #32363b;
+    font-family: 'Prompt',sans-serif;
+    color: white;
+    border: 0;
+}
+
+#button {
+    font-family: 'Prompt',sans-serif;
+    background: #4487ec;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    height: 25%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.wavesTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavesTop svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 399px;
+}
+
+.wavesTop .shape-fill {
+    fill: #4487EC;
+}
+
+.wavesBottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.wavesBottom svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 200px;
+}
+
+.wavesBottom .shape-fill {
+    fill: #4487EC;
+}

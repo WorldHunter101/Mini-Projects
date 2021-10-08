@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    font-family: cursive;
+}
+nav{
+    overflow:hidden;
+    background-color: aliceblue;
+}
+nav h2{
+    display: block;
+    float:left;
+}
+nav a{
+    display: block;
+}
+.n{
+    text-align: end;
+}
+.box{
+    margin: 200px 330px;
+    height: 100px;
+    background:linear-gradient(lightgreen,yellow);
+    width: 400px;
+    text-align: center;
+    padding: 50px;
+}
+.btn{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
